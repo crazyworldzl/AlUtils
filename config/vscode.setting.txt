@@ -1,0 +1,165 @@
+{
+    "highlightLine.borderColor": "red",
+    "workbench.editor.enablePreview": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.mouseWheelZoom": true,
+    "editor.fontSize": 14,
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/out/**":true
+    },
+    "rust.cargoPath": "/home/ubuntu14/.cargo",
+    "rust.build_bin": "/home/ubuntu14/.cargo/bin",
+    "rust.cargoEnv": "/home/ubuntu14/.cargo/env",
+    "rust-client.rustupPath": "/home/ubuntu14/.cargo/bin/rustup",
+    "workbench.sideBar.location": "right",
+    "workbench.editor.labelFormat": "default",
+    "java.format.enabled": false,
+    "editor.fontFamily": "'Courier New', monospace",
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "editor.minimap.maxColumn": 60,
+    "window.title": "${dirty}${activeEditorLong}${separator}${dirty}",
+    "workbench.editor.showIcons": false,
+    "workbench.editor.tabCloseButton": "off",
+    "git.ignoreLegacyWarning": true,
+    "workbench.editor.tabSizing": "shrink",
+    "window.zoomLevel": 1,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "clang.executable": "/usr/bin/clang-3.9",
+    "java.jdt.ls.vmargs": "-noverify -Xmx3G -XX:+UseG1GC -XX:+UseStringDeduplication",
+    "python.pythonPath": "/home/ubuntu14/.platformio/penv/bin/python",
+    "files.autoSave": "onWindowChange",
+    "window.menuBarVisibility": "default",
+    "git.confirmSync": false,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "log.verbose",
+                "settings": {
+                    "foreground": "#928b8b",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "log.info",
+                "settings": {
+                    "foreground": "#39B269",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "log.debug",
+                "settings": {
+                    "foreground": "#3678B2",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "log.warning",
+                "settings": {
+                    "foreground": "#F975FF",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "log.error",
+                "settings": {
+                    "foreground": "#FF6562",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "log.fail",
+                "settings": {
+                    "foreground": "#FF6562",
+                    "fontStyle": ""
+                }
+            }
+
+        ]
+    },
+    "logFileHighlighter.customPatterns": [
+        {
+            "pattern": "^.*\\sV\\s.*$|^V/.*$|^.*\\sV/.*$",
+            "foreground": "#928b8b"
+        },
+        {
+            "pattern": "^.*\\sI\\s.*$|^I/.*$|^.*\\sI/.*$",
+            "foreground": "#39B269"
+        },
+        {
+            "pattern": "^.*\\sD\\s.*$|^D/.*$|^.*\\sD/.*$|^.*\\sD\\s.*$",
+            "foreground": "#3678B2"
+        },
+        {
+            "pattern": "^.*\\sW\\s.*$|^W/.*$|^.*\\sW/.*$|^.*\\sW\\s.*$",
+            "foreground": "#F975FF"
+        },
+        {
+            "pattern": "^.*\\sE\\s.*$|^E/.*$|^.*\\sE/.*$",
+            "foreground": "#FF6562"
+        },
+        {
+            "pattern": "^.*\\sF\\s.*$|^F/.*$|^.*\\sF/.*$",
+            "foreground": "#FF0000"
+        },
+    ],
+    "files.associations": {
+        "*.log.*": "log",
+        "out-logcat*": "log",
+        "out-kmesg*": "log",
+    },
+    "epitech-c-cpp-headers.username": "",
+    "epitech-c-cpp-headers.login": "",
+    "epitech-c-cpp-headers.headerType": "post2017",
+    "epitech-c-cpp-headers.usePragmaOnce": false,
+    "epitech-c-cpp-headers.autoGenerateClasses": true,
+    "python.jediEnabled": false,
+    "editor.renderIndentGuides": false,
+    "workbench.activityBar.visible": true,
+    "bracketPairColorizer.forceIterationColorCycle": true,
+    "bracketPairColorizer.highlightActiveScope": true,
+    "bracketPairColorizer.showBracketsInRuler": true,
+    "bracketPairColorizer.showBracketsInGutter": true,
+    "highlight-matching-tag.highlightSelfClosing": true,
+    "bracketPairColorizer.forceUniqueOpeningColor": true,
+    "C_Cpp.default.cStandard": "c99",
+    "color-highlight.matchWords": true,
+    "workbench.statusBar.visible": true,
+    "editor.minimap.enabled": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "bookmarks.saveBookmarksInProject": true,
+    "breadcrumbs.enabled": true,
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "workbench.colorTheme": "One Dark Pro",
+    "highlightLine.borderStyle": "dashed",
+    "highlight-matching-tag.highlightFromContent": true,
+    "cmake.configureOnOpen": true,
+    "rust.mode": "rls",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "editor.renderControlCharacters": true,
+    "path-intellisense.extensionOnImport": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "C_Cpp.updateChannel": "Insiders",
+    "[plaintext]": {
+        
+    },
+    "go.useLanguageServer": true,
+    "go.gotoSymbol.includeGoroot": true,
+    "http.proxySupport": "off",
+    "[xml]": {
+        "editor.defaultFormatter": "DotJoshJohnson.xml"
+    },
+}
